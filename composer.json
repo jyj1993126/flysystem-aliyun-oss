@@ -17,22 +17,15 @@
         "league/flysystem": "^1.0.40",
         "aliyuncs/oss-sdk-php": "^2.2.4"
     },
-    "require-dev": {
-        "phpspec/phpspec": "^2.0.0",
-        "henrikbjorn/phpspec-code-coverage" : "~1.0.1"
-    },
     "autoload": {
         "psr-4": {
             "Jyj1993126\\Flysystem\\AliyunOss\\": "src/"
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
         "laravel": {
             "providers": [
-                "Jyj1993126\\Flysystem\\AliyunOss\\ServiceProvider"
+                "Jyj1993126\\Flysystem\\AliyunOss\\AliyunOssServiceProvider"
             ]
         }
     }

@@ -1,11 +1,15 @@
 {
-    "name": "zsimple/flysystem-aliyun-oss",
+    "name": "jyj1993126/flysystem-aliyun-oss",
     "description": "Flysystem adapter for the Aliyun OSS SDK",
     "license": "MIT",
     "authors": [
         {
             "name": "xishui",
             "email": "eyehere@sina.com"
+        },
+        {
+            "name": "leonJ",
+            "email": "jyj1993126@hotmail.com"
         }
     ],
     "require": {
@@ -19,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zsimple\\Flysystem\\AliyunOss\\": "src/"
+            "Jyj1993126\\Flysystem\\AliyunOss\\": "src/"
         }
     },
     "extra": {
@@ -28,7 +32,7 @@
         },
         "laravel": {
             "providers": [
-                "Zsimple\\Flysystem\\AliyunOss\\ServiceProvider"
+                "Jyj1993126\\Flysystem\\AliyunOss\\ServiceProvider"
             ]
         }
     }

@@ -1,5 +1,5 @@
 <?php
-namespace Zsimple\Flysystem\AliyunOss;
+namespace Jyj1993126\Flysystem\AliyunOss;
 
 use Storage;
 use OSS\OssClient;
